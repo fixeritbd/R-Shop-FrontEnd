@@ -1,0 +1,118 @@
+.cart_page_main {
+  padding: 50px 0;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td,
+th {
+  text-align: left;
+  padding: 22px 5px;
+}
+
+.cartMain h4 {
+  font-size: 17px;
+  line-height: 34px;
+}
+
+.item_des {
+  margin: 5px;
+  margin-left: 30px;
+}
+.item_counter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 55px;
+  width: 120px;
+  padding: 15px;
+  border-radius: 40px;
+  border: 1px solid #ccc;
+}
+.item_counter span {
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 5px;
+}
+.item_counter button {
+  background: none;
+  padding: 5px;
+}
+.item_counter button:hover {
+  background: none;
+  font-weight: 900;
+}
+.cart_operations button {
+  padding: 10px 30px;
+  border: 1px solid #ccc;
+  margin: 10px 20px;
+  border-radius: 40px;
+}
+
+.coupon_discount {
+  margin: 30px 5px;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.coupon_discount input {
+  padding: 10px 220px 10px 15px;
+  border-radius: 50px;
+  text-align: left;
+}
+.coupon_discount button {
+  position: absolute;
+  left: 350px;
+  border: 1 px solid #141414;
+  padding: 13px 15px;
+  border-radius: 50px;
+  bottom: -1px;
+  background: #fc8787;
+  transition: all linear 0.4s;
+}
+.coupon_discount button:hover {
+  color: #fff;
+  background: #05297f;
+}
+
+button:hover {
+  background-color: #eb9292;
+}
+
+.shipping_card {
+  background-color: #eef2f5;
+}
+.full_form {
+  padding: 20px 40px;
+  margin: 0 auto;
+}
+.full_form input {
+  border-radius: 20px;
+}
+.btn_submit {
+  color: #fff;
+  padding: 10px 25px;
+  margin: 25px 10px;
+  background-color: #05297f;
+  border-radius: 25px;
+}
+.check_out {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+
+.check_out button {
+  padding: 10px 60px;
+  border-radius: 50px;
+  background-color: #05297f;
+  color: #fff;
+}
+
+.recent_viewed_title {
+  padding-top: 50px;
+}

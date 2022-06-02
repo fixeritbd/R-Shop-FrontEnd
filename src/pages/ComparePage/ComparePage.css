@@ -1,0 +1,44 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.all_item td,
+th {
+  text-align: left;
+  padding: 5px;
+}
+
+.compare_page {
+  padding-top: 50px;
+}
+
+.only_difference {
+  width: 200px;
+  padding: 10px 0px;
+  border-radius: 40px;
+  background: #141414;
+  color: #fff;
+}
+.compare_bag {
+  background: #fc9d9d;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  padding-bottom: 0;
+}
+.compare_bag_icon {
+  line-height: 40px;
+  width: 35px;
+}
+
+.item_des .starIcon {
+  color: #ffbd69;
+  font-size: 16px;
+  margin-right: 5px;
+  margin-top: 7px;
+}
