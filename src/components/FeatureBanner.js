@@ -7,7 +7,7 @@ export default function FeatureBanner() {
   let [featureBanner, setFeatureBanner] = useState([]);
   useEffect(() => {
     let featureBannerData = async () => {
-      let data = await axios.get("http://localhost:8000/featurebanner");
+      let data = await axios.get("https://evening-tundra-91888.herokuapp.com/featurebanner");
       setFeatureBanner(data.data);
     };
     featureBannerData();

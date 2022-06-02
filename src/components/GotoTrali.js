@@ -8,9 +8,9 @@ const GotoTrali = () => {
   let [logo, setLogo] = useState({});
   useEffect(() => {
     let imgData = async () => {
-      let { data } = await axios.get("http://localhost:8000/gototralli");
+      let { data } = await axios.get("https://evening-tundra-91888.herokuapp.com/gototralli");
       setImages(data);
-      let logoData = await axios.get("http://localhost:8000/logo");
+      let logoData = await axios.get("https://evening-tundra-91888.herokuapp.com/logo");
       setLogo(logoData.data.img);
     };
 

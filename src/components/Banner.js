@@ -8,7 +8,7 @@ export default function Banner() {
 
   useEffect(() => {
     let logoData = async () => {
-      let data = await axios.get("http://localhost:8000/banner");
+      let data = await axios.get("https://evening-tundra-91888.herokuapp.com/banner");
       setBanner(data.data);
     };
     logoData();

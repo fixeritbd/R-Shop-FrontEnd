@@ -11,7 +11,7 @@ const CartItems = () => {
 
   useEffect(() => {
     async function fetchProduct() {
-      let { data } = await axios.get("http://localhost:8000/recentviewed");
+      let { data } = await axios.get("https://evening-tundra-91888.herokuapp.com/recentviewed");
       setRecentViewed(data);
     }
     fetchProduct();

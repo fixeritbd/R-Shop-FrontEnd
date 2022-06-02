@@ -13,7 +13,7 @@ export default function MainMenu() {
 
   useEffect(() => {
     let logoData = async () => {
-      let data = await axios.get("http://localhost:8000/logo");
+      let data = await axios.get("https://evening-tundra-91888.herokuapp.com/logo");
       setLogo(data.data.img);
     };
 

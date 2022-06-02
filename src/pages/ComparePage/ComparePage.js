@@ -13,7 +13,7 @@ const ComparePage = () => {
   const [compareitem, setCompareItem] = useState([]);
   useEffect(() => {
     const compareItemsData = async () => {
-      const { data } = await axios.get("http://localhost:8000/compare");
+      const { data } = await axios.get("https://evening-tundra-91888.herokuapp.com/compare");
       setCompareItem(data);
     };
     compareItemsData();

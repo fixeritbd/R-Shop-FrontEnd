@@ -20,7 +20,7 @@ const ShopcollectopProduct = () => {
 
     useEffect(() => {
         async function fetchProduct() {
-            let { data } = await axios.get("http://localhost:8000/products")
+            let { data } = await axios.get("https://evening-tundra-91888.herokuapp.com/products")
             setProduct(data)
         }
         fetchProduct()

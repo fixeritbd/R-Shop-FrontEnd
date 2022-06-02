@@ -34,7 +34,7 @@ const ProductDeatils = (props) => {
     async function fetchProduct() {
       dispatch({ type: "FETCH-REQUEST" });
       try {
-        let { data } = await axios.get(`http://localhost:8000/products/${params.slug}`);
+        let { data } = await axios.get(`https://evening-tundra-91888.herokuapp.com/products/${params.slug}`);
         dispatch({ type: "FETCH-SUCCESS", payload: data });
       } catch (error) {}
     }

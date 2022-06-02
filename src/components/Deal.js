@@ -7,7 +7,7 @@ export default function Deal() {
 
   useEffect(() => {
     let delData = async () => {
-      let data = await axios.get("http://localhost:8000/deal");
+      let data = await axios.get("https://evening-tundra-91888.herokuapp.com/deal");
       setDeal(data.data);
     };
 

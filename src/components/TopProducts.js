@@ -19,7 +19,7 @@ export default function TopProducts() {
     async function fetchProduct() {
       dispatch({ type: "FETCH-REQUEST" });
       try {
-        let { data } = await axios.get("http://localhost:8000/products");
+        let { data } = await axios.get("https://evening-tundra-91888.herokuapp.com/products");
         dispatch({ type: "FETCH-SUCCESS", payload: data });
       } catch (error) {}
     }
